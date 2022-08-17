@@ -6,7 +6,7 @@ class IngredientNutr(models.Model):
 
 class IngredientInfo(models.Model):
     name = models.CharField(max_length=255)
-    ingredient_nutr = models.ManyToManyField(IngredientNutr, on_delete=models.CASCADE, blank=True, null=True)
+    ingredient_nutr = models.ManyToManyField(IngredientNutr, blank=True, null=True)
 
 class Ingredient(models.Model):
     ingredient_info = models.ForeignKey(to= IngredientInfo, on_delete=models.CASCADE)
