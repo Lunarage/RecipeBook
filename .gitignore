@@ -1,0 +1,8 @@
+# Local config
+recipe_django/settings/local.py
+
+# Python
+**/__pycache__/*
+
+# Database
+**/db.sqlite3
