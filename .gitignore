@@ -1,9 +1,12 @@
 # Config
 recipe_django/settings/local.py
-recipe_django/nutr_data/api_key.txt
+recipe_django/app/api_key.txt
 
 # Python
 **/__pycache__/*
 
 # Database
 **/db.sqlite3
+
+# Logs
+recipe_django/app/logs/*
